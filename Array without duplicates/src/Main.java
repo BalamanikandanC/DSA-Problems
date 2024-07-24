@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         Boolean[] flag=new Boolean[10]; //Instead of using an array flag to track seen digits, use a HashSet which allows for O(1) average-time complexity for both insertion and lookup operations.
-                                        // Use LinkedHashSet for maintaining insertion order
+                                        // Use LinkedHashSet for maintaining insertion order.
         Arrays.fill(flag,false);
         int[] array=new int[]{111,222,444,577,339};
         int temp;
@@ -25,6 +25,7 @@ public class Main {
         for(int i=0;i<newArray.length;i++)
         {
             System.out.println(newArray[i]);
+
         }
     }
 }
