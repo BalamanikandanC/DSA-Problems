@@ -49,8 +49,6 @@ public class Main {
                 }
             }
         }
-        for(int d: dp) System.out.print(d+" ");
-        System.out.println();
         System.out.println("Maximum pages can be purchased is: "+ dp[x]);
     }
 }
